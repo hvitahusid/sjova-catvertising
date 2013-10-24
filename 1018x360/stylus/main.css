@@ -1,0 +1,188 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+body {
+  line-height: 1;
+  color: #000;
+  background: #fff;
+}
+ol,
+ul {
+  list-style: none;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+caption,
+th,
+td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+a img {
+  border: none;
+}
+body {
+  background-color: #fff;
+  width: 1018px;
+  height: 360px;
+  overflow: hidden;
+}
+form {
+  padding-left: 24px;
+  padding-right: 29px;
+  float: left;
+  height: 358px;
+  width: 329px;
+  display: block;
+  border: 1px solid #0060aa;
+  border-right: 1px solid #fff;
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAFmCAYAAACsk/DfAAAABmJLR0QA/wD/AP+gvaeTAAAAWklEQVQ4jWNgmH3pPxPD//8MTAwMDPiI/3hlGf6TohibOkpcQLLl6EpwWU6MP/6TopgUy0kzlK7hh66YesmHipFHtGf+k+fpQRJ5FMTgaPYbFDE4mv0GKPsBALo+TO8AAfhfAAAAAElFTkSuQmCC');
+}
+form .tilbod {
+  background-image: url("../img/tilbod.png");
+  width: 344px;
+  height: 83px;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  form .tilbod {
+    background-image: url("../img/tilbod@2x.png");
+    -webkit-background-size: 344px 83px;
+    -moz-background-size: 344px 83px;
+    background-size: 344px 83px;
+  }
+}
+form .logo {
+  display: block;
+  position: absolute;
+  left: 25px;
+  bottom: 19px;
+  background-image: url("../img/logo.png");
+  width: 87px;
+  height: 41px;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  form .logo {
+    background-image: url("../img/logo@2x.png");
+    -webkit-background-size: 87px 41px;
+    -moz-background-size: 87px 41px;
+    background-size: 87px 41px;
+  }
+}
+form .group {
+  zoom: 1;
+}
+form .group:before,
+form .group:after {
+  content: "";
+  display: table;
+}
+form .group:after {
+  clear: both;
+}
+form input {
+  font-size: 14px !important;
+  display: block;
+  float: left;
+  margin: 7px;
+  width: 329px/-6px;
+}
+form input.netfang {
+  width: 321px;
+}
+form button {
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAbCAYAAAC9WOV0AAAABmJLR0QA/wD/AP+gvaeTAAAAMElEQVQImWP4fSzlPxPD/78MTAz//zEwMTD8g7EgxF9ULkIJFgkkJThl/2Kx4x8DAMQgMwpQznYkAAAAAElFTkSuQmCC');
+  height: 27px;
+  border-color: #fbc766 #f5af2a #f59a26 #f5ae29;
+}
+form button:hover {
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAbCAYAAAC9WOV0AAAABmJLR0QA/wD/AP+gvaeTAAAAL0lEQVQImWP4vUHrPxMDIzMDEwMjEwMTAwMTjAUhmFG5CCVYJJCU4JRlxmIHEwMAmXADWBu+25oAAAAASUVORK5CYII=');
+}
+video {
+  float: left;
+  width: 634px;
+  height: 360px;
+}
+div.pix {
+  position: absolute;
+  top: 1px;
+  left: 337px;
+  background-image: url("../img/pix.png");
+  width: 116px;
+  height: 93px;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  div.pix {
+    background-image: url("../img/pix@2x.png");
+    -webkit-background-size: 116px 93px;
+    -moz-background-size: 116px 93px;
+    background-size: 116px 93px;
+  }
+}

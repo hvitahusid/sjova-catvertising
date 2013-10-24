@@ -1,0 +1,15 @@
+@CHARSET "UTF-8";
+
+.ias_loader {
+    text-align:center;
+    margin: 5px 0;
+}
+.ias_loader img{
+    margin-bottom: -4px;
+}
+
+/* ==================================back-top ================================================== */
+div.backtotop{position: fixed; bottom:40px; z-index:99; left:50%; margin-left:550px; display:none; width:41px; height:41px;}
+div.backtotop a{opacity: 0.3; filter: alpha(opacity=30); width:40px; height:40px; display: block; margin-bottom:41px; background:url("../../images/ajaxscroll/icon_top.png") no-repeat scroll 0 0 transparent;}
+div.backtotop a:hover{opacity: 0.5; filter: alpha(opacity=50);}
+/* ======================================================================================= */

@@ -1,0 +1,80 @@
+@import 'nib'
+@import 'nib/gradients'
+
+global-reset()
+
+blue = #0060aa
+
+grad_start = #009bd2
+grad_end = #006fb6
+
+banner_width = 1018px
+banner_height = 360px
+
+video_width = 634px
+
+body
+    background-color: white
+    width: banner_width
+    height: banner_height
+    overflow: hidden
+
+form
+    padding-left: 24px
+    padding-right: 29px
+    _height = banner_height - 2px
+    _width = banner_width - 2px - video_width - @padding-left - @padding-right
+    float: left
+    height: _height
+    width: _width
+    display: block
+    border 1px solid blue
+    border-right: 1px solid white
+    background: linear-gradient-image(_height top, grad_start, grad_end)
+    
+    .tilbod
+        image: '../img/tilbod.png' 344px 83px
+        width: 344px
+        height: 83px
+
+    .logo
+        display: block
+        absolute: left 25px bottom 19px
+        image: '../img/logo.png' 87px 41px
+        width: 87px
+        height: 41px
+
+    .group
+        clearfix()
+
+    input
+        font-size: 14px !important
+        display: block
+        float: left
+        margin: 7px
+        width: _width / 2 - 8px
+
+    input.netfang
+        width: _width - 8px
+
+    button
+        grad_start = #fbc765
+        grad_end = #fcb02a
+        _height = 27px
+        background: linear-gradient-image(_height top, grad_start, grad_end)
+        height: _height
+        border-color: #fbc766 #f5af2a #f59a26 #f5ae29
+
+        &:hover
+            background: linear-gradient-image(_height top, grad_end, grad_start)
+
+video
+    float: left
+    width: video_width
+    height: banner_height
+
+div.pix
+    absolute: top 1px left banner_width - video_width - 47px
+    image: '../img/pix.png' 116px 93px
+    width: 116px
+    height: 93px

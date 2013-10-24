@@ -1,0 +1,51 @@
+@import 'nib'
+
+global-reset()
+
+body
+    background-color: black
+    width: 310px
+    height: 400px
+    overflow: hidden
+
+video.loop, video.fall
+    absolute: top 0 left 0
+    width: 310px
+    height: 400px
+
+video.fall
+    display: none
+
+div.pix
+    absolute: top 0 left 0
+    image: '../img/pix.png' 56px 76px
+    width: 56px
+    height: 76px
+
+div.leika
+    cursor: pointer
+    absolute: top 276px left 14px
+    image '../img/leika.png' 189px 22px
+    width: 189px
+    height: 22px
+
+    div.hand
+        absolute: bottom -5px right -50px
+        image '../img/hand.png' 47px 66px
+        width: 47px
+        height: 66px
+
+div.ganga-fra
+    cursor: pointer
+    absolute: top 362px left 14px
+    image '../img/ganga-fra.png' 168px 18px
+    width: 168px
+    height: 18px
+
+div.off
+    display: none
+    cursor: pointer
+    absolute: top left
+    image '../img/off.jpg' 310px 400px
+    width: 310px
+    height: 400px

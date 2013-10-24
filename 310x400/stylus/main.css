@@ -1,0 +1,192 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+body {
+  line-height: 1;
+  color: #000;
+  background: #fff;
+}
+ol,
+ul {
+  list-style: none;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+caption,
+th,
+td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+a img {
+  border: none;
+}
+body {
+  background-color: #000;
+  width: 310px;
+  height: 400px;
+  overflow: hidden;
+}
+video.loop,
+video.fall {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 310px;
+  height: 400px;
+}
+video.fall {
+  display: none;
+}
+div.pix {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("../img/pix.png");
+  width: 56px;
+  height: 76px;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  div.pix {
+    background-image: url("../img/pix@2x.png");
+    -webkit-background-size: 56px 76px;
+    -moz-background-size: 56px 76px;
+    background-size: 56px 76px;
+  }
+}
+div.leika {
+  cursor: pointer;
+  position: absolute;
+  top: 276px;
+  left: 14px;
+  background-image: url("../img/leika.png");
+  width: 189px;
+  height: 22px;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  div.leika {
+    background-image: url("../img/leika@2x.png");
+    -webkit-background-size: 189px 22px;
+    -moz-background-size: 189px 22px;
+    background-size: 189px 22px;
+  }
+}
+div.leika div.hand {
+  position: absolute;
+  bottom: -5px;
+  right: -50px;
+  background-image: url("../img/hand.png");
+  width: 47px;
+  height: 66px;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  div.leika div.hand {
+    background-image: url("../img/hand@2x.png");
+    -webkit-background-size: 47px 66px;
+    -moz-background-size: 47px 66px;
+    background-size: 47px 66px;
+  }
+}
+div.ganga-fra {
+  cursor: pointer;
+  position: absolute;
+  top: 362px;
+  left: 14px;
+  background-image: url("../img/ganga-fra.png");
+  width: 168px;
+  height: 18px;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  div.ganga-fra {
+    background-image: url("../img/ganga-fra@2x.png");
+    -webkit-background-size: 168px 18px;
+    -moz-background-size: 168px 18px;
+    background-size: 168px 18px;
+  }
+}
+div.off {
+  display: none;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("../img/off.jpg");
+  width: 310px;
+  height: 400px;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  div.off {
+    background-image: url("../img/off@2x.jpg");
+    -webkit-background-size: 310px 400px;
+    -moz-background-size: 310px 400px;
+    background-size: 310px 400px;
+  }
+}
