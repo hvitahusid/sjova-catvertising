@@ -1,0 +1,42 @@
+#ad_t_frontpage iframe {
+  position: relative;
+  z-index: 200;
+}
+#catvertising-extras,
+#catvertising-extras-behind {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1018px;
+  height: 0;
+  z-index: 300;
+}
+#catvertising-extras .catvertising-g1,
+#catvertising-extras-behind .catvertising-g1 {
+  position: absolute;
+  right: -4px;
+  top: 322px;
+  background-image: url("../img/g1.png");
+  width: 655px;
+  height: 17px;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #catvertising-extras .catvertising-g1,
+  #catvertising-extras-behind .catvertising-g1 {
+    background-image: url("../img/g1@2x.png");
+    -webkit-background-size: 655px 17px;
+    -moz-background-size: 655px 17px;
+    background-size: 655px 17px;
+  }
+}
+#catvertising-extras-behind {
+  z-index: 100;
+}
+#catvertising-extras-behind .catvertising-vasi {
+  position: absolute;
+  top: 23px;
+  left: 388px;
+  width: 315px;
+  height: 336px;
+  background: url("../img/vasi-blur.png");
+}

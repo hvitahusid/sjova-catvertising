@@ -22,7 +22,10 @@
         $('.leika').on('click', function() {
             $fall.fadeIn(200)[0].play();
             $('.leika, .ganga-fra').fadeOut(200);
-            top.window.jQuery('body').trigger('sjova-catvertising-play');
+
+            if(top.window.jQuery !== undefined) {
+                top.window.jQuery('body').trigger('sjova-catvertising-play');
+            }
         });
 
         // Ganga frá

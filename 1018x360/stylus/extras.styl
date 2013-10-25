@@ -1,0 +1,34 @@
+@import 'nib'
+@import 'nib/gradients'
+
+banner_width = 1018px
+banner_height = 360px
+
+#ad_t_frontpage iframe
+    position: relative
+    z-index: 200
+
+
+#catvertising-extras, #catvertising-extras-behind
+    absolute: top 0 left 0
+    width: banner_width
+    height: 0
+    z-index: 300
+
+    .catvertising-g1
+        absolute: right -4px top 322px
+        image: '../img/g1.png' 655px 17px
+        width: 655px
+        height: 17px
+
+
+#catvertising-extras-behind
+    z-index: 100
+
+    .catvertising-vasi
+        position: absolute
+        top: 23px //41px
+        left: 388px
+        width: 315px
+        height: 336px
+        background: url('../img/vasi-blur.png')

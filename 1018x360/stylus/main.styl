@@ -11,7 +11,7 @@ grad_end = #006fb6
 banner_width = 1018px
 banner_height = 360px
 
-video_width = 634px
+video_width = 617px
 
 body
     background-color: white
@@ -20,10 +20,11 @@ body
     overflow: hidden
 
 form
-    padding-left: 24px
-    padding-right: 29px
+    position: relative
+    padding-left: 29px
+    padding-right: 24px
     _height = banner_height - 2px
-    _width = banner_width - 2px - video_width - @padding-left - @padding-right
+    _width = 399px - @padding-left - @padding-right
     float: left
     height: _height
     width: _width
@@ -32,38 +33,64 @@ form
     border-right: 1px solid white
     background: linear-gradient-image(_height top, grad_start, grad_end)
     
+    .string
+        absolute: left 266px top 187px
+        background-image: url('../img/string.png')
+        width: 277px
+        height: 120px
+
     .tilbod
         image: '../img/tilbod.png' 344px 83px
         width: 344px
         height: 83px
+        margin: 112px 0 20px 0
 
     .logo
         display: block
-        absolute: left 25px bottom 19px
+        absolute: left 29px bottom 19px
         image: '../img/logo.png' 87px 41px
         width: 87px
         height: 41px
-
-    .group
-        clearfix()
 
     input
         font-size: 14px !important
         display: block
         float: left
-        margin: 7px
-        width: _width / 2 - 8px
+        height: 29px !important 
+
+    .group
+        position: relative
+        z-index: 10
+        clearfix()
+
+        input
+            width: (_width / 2) - 8px
+
+    input.nafn
+        margin-right: 7px
 
     input.netfang
         width: _width - 8px
+        margin-top: 12px
 
     button
+        absolute: right 31px bottom 23px
         grad_start = #fbc765
         grad_end = #fcb02a
-        _height = 27px
+        _height = 28px
         background: linear-gradient-image(_height top, grad_start, grad_end)
         height: _height
         border-color: #fbc766 #f5af2a #f59a26 #f5ae29
+        color: #333;
+        text-shadow: none;
+        border-radius: 2px;
+
+        i
+            display: block
+            absolute: left -7px top -2px
+            image: '../img/button-string.png' 80px 37px
+            width: 80px
+            height: 37px
 
         &:hover
             background: linear-gradient-image(_height top, grad_end, grad_start)

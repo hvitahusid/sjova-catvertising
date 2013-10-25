@@ -23,20 +23,24 @@
         <div class="tilbod"></div>
 
         <div class="group">
-            <input type="text" name="nafn" placeholder="Nafn" class="formNafn">
-            <input type="text" name="kennitala" placeholder="Kennitala" class="formKenn">
+            <input type="text" name="nafn" placeholder="Nafn" class="nafn">
+            <input type="text" name="kennitala" placeholder="Kennitala" class="kennitala">
         </div>
 
         <input type="text" name="gsm" placeholder="GSM" class="netfang">
         
         <input type="hidden" name="dreifileid" value="Vefbordi_visir_forsida">
+        
+        <input type="hidden" name="netfang" value="">
 
-        <button type="submit">Fá tilboð</button>
+        <button type="submit">Fá tilboð<i></i></button>
+
+        <div class="string"></div>
 
         <a href="http://sjova.is" target="_NEW" class="logo"></a>
     </form>
 
-    <video width="634" height="360">
+    <video width="617" height="360">
         <source src="./video/fall.mp4" type="video/mp4">
         <source src="./video/fall.webm" type="video/webm">
         <source src="./video/fall.ogv" type="video/ogg">
@@ -44,10 +48,28 @@
 
     <div class="pix"></div>
 
+    <div id="extras" style="display:none">
+        <link rel="stylesheet" type="text/css" href="1018x360/stylus/extras.css">
+
+        <div id="catvertising-extras">
+            <div class="catvertising-g1"></div>
+        </div>
+
+        <div id="catvertising-extras-behind">
+            <div class="catvertising-vasi"></div>
+        </div>
+    </div>
+
     <script src="js/json3.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/jquery-2.0.2.min.js"><\/script>')</script>
     <script src="js/jquery.formalize.js"></script>
+    <script src="js/jquery.form.min.js"></script>
+    <script src="js/jquery.box2d.min.js"></script>
+    
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.11.0/TweenMax.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/TweenMax.min.js"><\/script>')</script>
+
     <script src="js/purl.js"></script>
     <script src="js/html-banner.js"></script>
 
